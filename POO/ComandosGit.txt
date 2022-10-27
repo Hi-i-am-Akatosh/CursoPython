@@ -1,0 +1,6 @@
+===========comando de git===========
+1. git init => inicialia r el repositorio
+2. git status => Permite ver el estado del repositorio
+° 3. git add . => permite agregar todos los archivos al repsoitorio
+° 4. git commit -m "Metodos especiales en python" => permite crear una captura de todo lo agregado, y tener listo para subir al repositorio
+° 5. git push => permite subir l ainformacion al repositorio remoto Github
