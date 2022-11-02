@@ -10,7 +10,7 @@ raiz.title("Primera Ventana")
 #Configuracion de tamaño
 raiz.geometry("520x480")
 #Cambiar icono
-#raiz.iconbitmap("C:\Users\USUARIO\Desktop")
+raiz.iconbitmap("carpeta.ico")
 #Cambiar el color de fondo
 raiz.config(bg="skyblue")
 #No permite reajustar el tamaño del aplicativo

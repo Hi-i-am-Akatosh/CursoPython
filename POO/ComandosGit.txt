@@ -5,4 +5,13 @@
 ° 4. git commit -m "Metodos especiales en python" => permite crear una captura de todo lo agregado, y tener listo para subir al repositorio
 ° 5. git push => permite subir l ainformacion al repositorio remoto Github
 
-° .md °
+° .md ° => Markdown.. Formato de texto.
+--------------------
+Interfaces
+°python --version
+°pip --version
+°pip install pipenv
+°pipenv install
+°pipenv shell => Para activar el repositorio
+° code . ° => Para abrir el Visual
+
