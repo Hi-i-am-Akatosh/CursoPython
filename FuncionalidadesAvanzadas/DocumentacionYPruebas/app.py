@@ -64,9 +64,52 @@ Ins = Carro()
 
 help(Ins)"""
 
-
+"""
 import datetime
 
 #help(datetime)
 hora = datetime.datetime.now()
-print(hora)
+print(hora)"""
+
+#================================================
+
+#DOCTEST 
+"""def suma(a,b):
+  #Esta funcion recibe dos parametros y devuelve la suma de ambos
+
+  >>> suma(5, 4)
+ 
+  return a+b
+
+if __name__ == "__main__":
+  import doctest
+  doctest.testmod()"""
+
+  
+  
+#DOCTEST 
+def resta(a,b):
+  """Esta funcion recibe dos parametros y devuelve la resta de ambos
+
+  >>> resta(5, 4)
+  1
+  """
+  return a-b
+
+if __name__ == "__main__":
+  import doctest
+  doctest.testmod()
+
+
+def doblar(lista):
+  """Duplica el valor de los elementos de una lista
+  
+  >>> l = [1,2,3,4,5]
+  >>> doblar(l)
+  [2, 4, 6, 8, 10]
+  """
+  return [n*2 for n in lista]
+
+if __name__ == "__main__":
+  import doctest
+  doctest.testmod()
