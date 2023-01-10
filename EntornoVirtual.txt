@@ -1,17 +1,33 @@
-pipenv --vesion
+Crear un entorno virtual V1
 
-pipenv install
+1. python -m venv nombre-entorno
 
-pipenv shell (activar)
+2. nombre-entorno\Scripts\activate.bat
 
 -----------------------------
+Crear un entorno virtual V2
+
+0° pip install pipenv
+
+1° pipenv --vesion
+
+2° pipenv install
+
+3° pipenv shell (activar)
+
+4° Librerias.
+
+°pip uninstall pipenv
+-----------------------------
+Matplotlib = pip install matplotlib
+
 EJECUTABLES:
 
 #pyInstaller - Unix
 #pyexe - Windows
 
-------------
+-----------------------------
 
 https://pypi.org/project/py2exe/0.9.2.0/
 
-pip install py2exe
+pip install py2exe (ejecutables)
